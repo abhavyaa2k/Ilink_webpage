@@ -1,0 +1,170 @@
+h1 {
+    text-align: center;
+    color: #1c1c1c;
+    padding: 0px;
+}
+#navbar h1{
+    text-align: center;
+}
+ 
+#banner {
+    width: 100%;
+}
+ 
+.location {
+    color: rgb(48, 46, 46);
+    margin-bottom: 16px;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#navbar {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center;
+    margin-left: 500px;
+    /* Center align vertically */
+}
+ 
+#logo-container {
+    display: flex;
+    align-items: center; /* Center align vertically */
+}
+ 
+ 
+#navlogo {
+    height: 100px;
+}
+ 
+#banner {
+    object-fit: cover;
+}
+ 
+#about {
+    display: flex;
+}
+ 
+#description {
+    width: 50%;
+    padding: 0 8px;
+}
+ 
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+ 
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+ 
+h2 {
+    text-align: center;
+}
+ 
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column; /* Align job opportunities vertically */
+}
+ 
+h3 {
+    margin-bottom: 0;
+}
+ 
+.apply {
+    float: right;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+#footer {
+    background-color: lightgrey;
+    padding: 8px;
+    margin-top: 20px;
+}
+ 
+#footer-links {
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+#footer {
+    background-color: lightgrey;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center; /* Center align the content */
+}
+ 
+#footer-links {
+    list-style: none;
+    display: inline-block; /* Display the list horizontally */
+    padding: 0;
+}
+#about {
+    background-color: #d4d5d6; /* Change to desired background color */
+}
+ 
+#jobs {
+    background-color: #7b807c; /* Change to desired background color */
+}
+ 
+#footer-links li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between the list items */
+}
+ 
+#footer-links li img {
+    width: 30px; /* Set the width of the icon images */
+    height: 30px; /* Set the height of the icon images */
+    vertical-align: middle; /* Align the images vertically in the middle of the list item */
+}
+ 
+#footer span {
+    display: block; /* Ensure the copyright text is on a new line */
+}
+#footer {
+    background-color: lightgrey;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+#footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+ 
+
+ 
+#footer-links li {
+    margin-right: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: black;
+    transition: all 0.3s ease; /* Add transition effect */
+}
+ 
+
+#footer-links li:last-child {
+    margin-right: 0;
+}
+ 
+#footer-links li a img {
+    width: 50px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+ 
